@@ -1,0 +1,6 @@
+* source PROJECT_1
+C_C6         N15061 N14658  0.1uF  TC=0,0 
+C_C4         N15425 N15425  0.01uF  TC=0,0 
+C_C3         N17217 N16821  0.01uF  TC=0,0 
+C_C1         N17217 N15425  0.01uF  TC=0,0 
+C_C7         GND GND  0.01uF  TC=0,0 

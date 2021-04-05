@@ -33,8 +33,11 @@
     (ANNOTATE_Action "1")
     (ANNOTATE_Reset_References_to_1 "FALSE")
     (ANNOTATE_No_Page_Number_Change "TRUE")
-    (ANNOTATE_Property_Combine "{Value}{Source Package}"))
-  (Folder "Outputs")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\project_1-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
   (Folder "PSpice Resources"
     (Folder "Model Libraries")
     (Folder "Stimulus Files")
@@ -110,7 +113,8 @@
          "C:\Users\user\Desktop\Hardware_Logic\04-05-2021\project_1.dsn")
       (Path "Design Resources"
          "C:\Users\user\Desktop\Hardware_Logic\04-05-2021\project_1.dsn"
-         "SCHEMATIC1"))
+         "SCHEMATIC1")
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -121,7 +125,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1655 52 512")
-        (Scroll "-292 84")
+        (Scroll "-292 10")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\USER\DESKTOP\HARDWARE_LOGIC\04-05-2021\PROJECT_1.DSN")
