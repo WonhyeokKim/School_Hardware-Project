@@ -1,0 +1,54 @@
+
+**** 04/05/21 11:00:34 ***** PSpice 16.6.0 (October 2012) ***** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\user\Desktop\Hardware_Logic\04-05-2021\Project_2\project_2-pspicefiles\schematic1\bias.sim
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\user\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice/16.6.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source PROJECT_2
+C_C1         N15405 N15096  0.001uF  TC=0,0 
+C_C4         N15393 N15397  0.001uF  TC=0,0 
+C_C3         N15397 N15401  0.001uF  TC=0,0 
+C_C2         N15401 N15405  0.001uF  TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N15096.
+
+ERROR(ORPSIM-15141): Less than 2 connections at node N15393.
+
+ERROR(ORPSIM-15142): Node N15405 is floating
+
+ERROR(ORPSIM-15142): Node N15096 is floating
+
+ERROR(ORPSIM-15142): Node N15393 is floating
+
+ERROR(ORPSIM-15142): Node N15397 is floating
+
+ERROR(ORPSIM-15142): Node N15401 is floating
+
