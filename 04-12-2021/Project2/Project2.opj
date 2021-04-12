@@ -62,11 +62,7 @@
       (DeviceIndex "0")))
   (GlobalState
     (FileView
-      (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\Proje\SourceFiles\Hardware Project\School_Hardware-Project\04-12-2021\Project2\project2.dsn")
-      (Select "Design Resources"
-         "C:\Users\Proje\SourceFiles\Hardware Project\School_Hardware-Project\04-12-2021\Project2\project2.dsn"))
+      (Path "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
