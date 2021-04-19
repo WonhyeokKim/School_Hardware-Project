@@ -16,6 +16,11 @@
     (GND
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (ADM101E
+      (FullPartName "ADM101E.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\SCHOOL_HARDWARE-PROJECT\04-19-2021\PROJECT1\LIBRARY2.OLB")
+      (DeviceIndex "0"))
     (VCC_BAR
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -73,8 +78,7 @@
       (Path "Design Resources" ".\project1.dsn")
       (Path "Design Resources" ".\project1.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Path "Design Resources" "Library" ".\library2.olb")
-      (Select "Design Resources" ".\project1.dsn" "SCHEMATIC1" "PAGE1"))
+      (Path "Design Resources" "Library" ".\library2.olb"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -121,8 +125,8 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "-209 0")
-        (Zoom "100")
+        (Scroll "-350 0")
+        (Zoom "76")
         (Occurrence "/"))
       (Path
          "C:\USERS\USER\DESKTOP\SCHOOL_HARDWARE-PROJECT\04-19-2021\PROJECT1\PROJECT1.DSN")
