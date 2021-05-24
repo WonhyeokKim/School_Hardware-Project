@@ -44,8 +44,7 @@
   (MPSSessionName "Proje")
   (GlobalState
     (FileView
-      (Path "Design Resources")
-      (Select "Design Resources"))
+      (Path "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -56,7 +55,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1629 52 525")
-        (Scroll "-279 45")
+        (Scroll "-180 241")
         (Zoom "100")
         (Occurrence "/"))
       (Path
