@@ -1,0 +1,92 @@
+(ExpressProject "20504_Wonhyeok"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\library1.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\20504_wonhyeok.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (FND
+      (FullPartName "FND.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\SCHOOL_HARDWARE-PROJECT\05-31-2021\20504_WONHYEOK\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("NPN BCE"
+      (FullPartName "NPN BCE.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\TRANSISTOR.OLB")
+      (DeviceIndex "0"))
+    ("CAP POL"
+      (FullPartName "CAP POL.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\user\Desktop\School_Hardware-Project\05-31-2021\20504_Wonhyeok")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\user\Desktop\School_Hardware-Project\05-31-2021\20504_Wonhyeok\20504_wonhyeok.dsn")
+      (Path "Design Resources"
+         "C:\Users\user\Desktop\School_Hardware-Project\05-31-2021\20504_Wonhyeok\20504_wonhyeok.dsn"
+         "SCHEMATIC1")
+      (Path "Design Resources" "Library"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 156 1498 156 615")
+        (Scroll "-62 181")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\USER\DESKTOP\SCHOOL_HARDWARE-PROJECT\05-31-2021\20504_WONHYEOK\20504_WONHYEOK.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 182 1524 182 641")
+        (Scroll "-162 75")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\USER\DESKTOP\SCHOOL_HARDWARE-PROJECT\05-31-2021\20504_WONHYEOK\20504_WONHYEOK.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE2"))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 208 1550 208 667")
+        (PackageScroll "0 0")
+        (PackageZoom "1")
+        (PartPackage "Part")
+        (Scroll "2478 796")
+        (Zoom "485"))
+      (Path
+         "C:\Users\user\Desktop\School_Hardware-Project\05-31-2021\20504_Wonhyeok\LIBRARY1.OLB")
+      (Package "FND"))))
