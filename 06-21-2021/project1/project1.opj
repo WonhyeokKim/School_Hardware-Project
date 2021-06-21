@@ -3,7 +3,7 @@
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
-      (File "..\library1.olb"
+      (File ".\library1.olb"
         (Type "Schematic Library")))
     (NoModify)
     (File ".\project1.dsn"
@@ -13,18 +13,45 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (PORTRIGHT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    ($D_HI
+      (LibraryName
+         "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_SIGNAL
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_EARTH
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (AD9300KP
+      (FullPartName "AD9300KP.Normal")
+      (LibraryName
+         "C:\USERS\USER\DESKTOP\SCHOOL_HARDWARE-PROJECT\06-21-2021\LIBRARY1.OLB")
+      (DeviceIndex "0"))
     (AD9300
       (FullPartName "AD9300.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\MUXDECODER.OLB")
       (DeviceIndex "0")))
   (MPSSessionName "user")
-  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.2\tools\capture\library")
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\user\Desktop\School_Hardware-Project\06-21-2021")
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources"
-         "C:\Users\user\Desktop\School_Hardware-Project\06-21-2021\project1\project1.dsn"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -32,23 +59,11 @@
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
       (Tab 0))
     (Doc
-      (Type "COrPartDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1446 104 563")
-        (PackageScroll "0 0")
-        (PackageZoom "1")
-        (PartPackage "Part")
-        (Scroll "1426 608")
-        (Zoom "288"))
-      (Path
-         "C:\Users\user\Desktop\School_Hardware-Project\06-21-2021\LIBRARY1.OLB")
-      (Package "AD9300KP"))
-    (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "-209 171")
-        (Zoom "100")
+        (Scroll "0 563")
+        (Zoom "152")
         (Occurrence "/"))
       (Path
          "C:\USERS\USER\DESKTOP\SCHOOL_HARDWARE-PROJECT\06-21-2021\PROJECT1\PROJECT1.DSN")
