@@ -13,6 +13,9 @@
   (Folder "Outputs")
   (Folder "Referenced Projects")
   (PartMRUSelector
+    (VCC_CIRCLE
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (PORTLEFT-R
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
@@ -54,23 +57,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources" ".\project1.dsn")
+      (Path "Design Resources" ".\project1.dsn" "SCHEMATIC1")
       (Path "Design Resources" "Library")
       (Path "Design Resources" "Library"
-         "c:\users\user\desktop\school_hardware-project\06-21-2021\project1\library1.olb"))
+         "c:\users\user\desktop\school_hardware-project\06-21-2021\project1\library1.olb")
+      (Select "Design Resources" ".\project1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 0 200 0 420"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "179 486")
-        (Zoom "152")
-        (Occurrence "/"))
-      (Path
-         "C:\USERS\USER\DESKTOP\SCHOOL_HARDWARE-PROJECT\06-21-2021\PROJECT1\PROJECT1.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Tab 0))))
