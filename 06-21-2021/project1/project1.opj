@@ -54,7 +54,10 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" "Library"))
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library"
+         "c:\users\user\desktop\school_hardware-project\06-21-2021\project1\library1.olb")
+      (Select "Design Resources" ".\project1.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -65,7 +68,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1688 52 511")
-        (Scroll "0 383")
+        (Scroll "84 261")
         (Zoom "152")
         (Occurrence "/"))
       (Path
