@@ -57,10 +57,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\project1.dsn")
-      (Path "Design Resources" ".\project1.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "e:\cloud\code_sector\wonhyeok\school_hardware-project\06-21-2021\project1\project1.dsn")
+      (Path "Design Resources"
+         "e:\cloud\code_sector\wonhyeok\school_hardware-project\06-21-2021\project1\project1.dsn"
+         "SCHEMATIC1")
       (Path "Design Resources" "Library")
-      (Select "Design Resources" ".\project1.dsn" "SCHEMATIC1" "PAGE1"))
+      (Select "Design Resources"
+         "e:\cloud\code_sector\wonhyeok\school_hardware-project\06-21-2021\project1\project1.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
